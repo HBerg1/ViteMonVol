@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="barrenav">
+        <a class="icon" href="index.html">ViteMonVol</a>
+        <a href="recherche.html">Recherche</a>
+        <a href="inscription.html">Inscription</a>
+        <a href="liste.html">Liste des circuits</a>
+    </div>
+
+
+
+    <div class="boite">
+        <div class="box-recherche">
+            <input id="rech" onkeyup="recherche()" type="text">
+        </div>
+        <div class="panel">
+            <div id="jp">
+                <img src="https://cdn.pixabay.com/photo/2016/05/17/13/55/osaka-castle-1398125_960_720.jpg" onclick="japon()">
+            </div>
+            <div id="el">
+                <img src="https://cdn.pixabay.com/photo/2017/09/07/16/50/acropolis-2725918_960_720.jpg" onclick="grece()">
+            </div>
+            <div id="cnd">
+                <img src="https://cdn.pixabay.com/photo/2017/08/09/09/52/vancouver-2613994_960_720.jpg" onclick="canada()">
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

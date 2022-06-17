@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des circuits</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="barrenav">
+        <a class="icon" href="index.html">ViteMonVol</a>
+        <a href="recherche.html">Recherche</a>
+        <a href="inscription.html">Inscription</a>
+        <a href="liste.html">Liste des circuits</a>
+    </div>
+
+
+
+    <div class="container">
+        <div class="container1" onclick="Japon()" id="Japon" >
+            <div class="Japon">
+                <div class="barrenoir" id="barJapon" style="display: none;">
+                    <p >Voyage sur l'archipel nippon <a href="Japon.html" class="droite" >En savoir plus</a> </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2" id="Grece" style="z-index: 1;">
+            <div class="Grece" onclick="Grece()" >
+                <div class="barrenoir" id="barGrece">
+                    <p>Visite historique en Grèce <a href="Grece.html" class="droite" >En savoir plus</a> </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container3" id="Canada">
+            <div class="Canada" onclick="Canada()">
+                <div class="barrenoir" id="barCanada" style="display: none;">
+                    <p>Voyage au pays des caribous <a href="Canada.html" class="droite">En savoir plus</a> </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

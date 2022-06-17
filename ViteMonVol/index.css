@@ -1,0 +1,317 @@
+body {
+     margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x:hidden;
+    
+}
+
+/* Barre de navigation */
+
+.barrenav {
+    overflow: hidden;
+    background-color: #003580;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+.barrenav a {
+    float: right;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.barrenav a:hover {
+    background-color: #FF690F;
+    color: white;
+}
+
+.barrenav a.icon {
+    float: left;
+    background-color: #003580;
+    color: white;
+    
+}
+
+/*Liste des circuits*/
+
+ .container
+{
+    top: 0; 
+    margin: 5px -1px; 
+    display: flex;
+}  
+
+.container1,.container2,.container3{
+    width: 29rem;
+    cursor: pointer;
+}
+
+.container3{
+    margin: 0px 0px 500rem 0px; 
+}
+
+.Japon{
+    background: url("https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_960_720.jpg");
+    
+}
+.Grece
+{
+    background: url("https://cdn.pixabay.com/photo/2014/08/12/00/01/santorini-416136_960_720.jpg");
+}
+
+.Canada
+{
+    background: url("https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_960_720.jpg");
+}
+.Japon,.Grece,.Canada
+{
+    background-size: cover; 
+    width: 60rem;
+    height: 40rem;
+}
+
+
+.barrenoir{
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    color: #fff;
+    width: 60rem;
+    padding: 10px 0;
+}
+
+.barrenoir p{ 
+    margin: 0;
+    font-weight: 200;
+    font-size: 16px;
+  }
+
+.droite
+{
+    text-decoration: none;
+    margin: 0;
+    color: #fff;
+    font-weight: 200px ;
+    font-size: 16px;
+    float: right;
+    padding: 0px 5px 0px 0px;
+}
+
+
+/*Inscription*/
+.box {
+    padding: 16px;
+    background-color: white;
+}
+
+input {
+    width: 100%;
+    padding: 16px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.buttoninscription
+{
+  width: 100%;
+  background-color: #003580;
+  color: white;
+  padding: 14px 18px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+.compte
+{
+  text-align: center;
+}
+
+/*Japon*/
+
+.image-block{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+.Tokyo, .Kyoto, .Osaka, .Hakone{
+  
+  width: 200px;
+  margin: 0 20px 20px 0;  
+  position: relative; 
+  overflow: hidden ;
+}
+
+
+
+.Tokyo
+{
+
+  background : url("https://cdn.pixabay.com/photo/2020/01/14/03/53/tokyo-4763976_960_720.jpg") no-repeat center center;
+  background-size: cover; 
+  overflow: hidden;
+  height: 100%;
+ width: 960px;
+}
+
+.Kyoto
+{
+  background : url("https://cdn.pixabay.com/photo/2016/11/29/12/12/architecture-1869398_960_720.jpg") no-repeat center center;
+  overflow: hidden;
+  background-size: cover; 
+  height: 720px;
+  width: 960px;
+  
+}
+
+#Osaka
+{
+  background : url("https://cdn.pixabay.com/photo/2016/05/17/13/55/osaka-castle-1398125_960_720.jpg") no-repeat center center;
+  overflow: hidden;
+  background-size: cover; 
+  height: 720px;
+  width: 960px;
+  
+}
+
+.Hakone
+{
+  background : url("https://live.staticflickr.com/95/210042483_6da6532eca_b.jpg") no-repeat center center;
+  overflow: hidden;
+  background-size: cover; 
+  height: 1060px;
+  width: 870px;
+ 
+}
+
+
+
+
+/*Grèce*/
+
+.Athènes, .péloponnèse, .Osaka ,.blank{
+  
+  width: 200px;
+  margin: 0 20px 20px 0;  
+  position: relative; 
+  overflow: hidden ;
+}
+
+.blank
+{
+  padding: 50px;
+}
+
+.Athènes
+{
+  background : url("https://cdn.pixabay.com/photo/2017/09/07/16/50/acropolis-2725918_960_720.jpg")no-repeat center center;
+  overflow: hidden;
+  background-size: cover; 
+  height: 720px;
+  width: 960px;
+  
+}
+
+.péloponnèse
+{
+  background : url("https://cdn.pixabay.com/photo/2019/03/30/15/53/greece-4091412_960_720.jpg")no-repeat center center;
+  overflow: hidden;
+  background-size: cover; 
+  height: 720px;
+  width: 960px;
+  
+}
+
+.Thessalonique
+{
+  background : url("https://cdn.pixabay.com/photo/2019/05/16/21/08/greece-4208252_960_720.jpg")no-repeat center center;
+  overflow: hidden;
+  background-size: cover; 
+  height: 1060px;
+  width: 870px;
+ 
+}
+
+/*Canada*/
+
+.Vancouver, .Kamloops{
+  
+  width: 200px;
+  margin: 0 20px 20px 0;  
+  position: relative; 
+  overflow: hidden ;
+}
+
+.Vancouver
+{
+  background : url("https://cdn.pixabay.com/photo/2017/08/09/09/52/vancouver-2613994_960_720.jpg")no-repeat center center;
+  overflow: hidden;
+  background-size: cover; 
+  height: 720px;
+  width: 960px;
+  
+}
+
+.Kamloops
+{
+  background : url("https://cdn.pixabay.com/photo/2013/12/18/21/50/kamloops-lake-230508_960_720.jpg")no-repeat center center;
+  overflow: hidden;
+  background-size: cover; 
+  height: 720px;
+  width: 960px;
+  
+}
+
+/* Recherche */
+.boite {
+  margin: 0 auto;
+  padding: 50px 0 0;
+  max-width: 960px;
+  width: 100%;
+}
+
+.panel {
+  display: flex;
+}
+
+.box-recherche{
+  margin: 0 auto;
+  width: 200px; 
+}
+
+#rech{
+  margin-left: 15%;
+  padding:15px;
+}
+
+#jp ,#el ,#cnd 
+{
+  display: none;
+}
+
+img{
+  width:100%;
+}
+
+
+/* Info pays */
+
+* {
+  box-sizing: border-box;
+}
+
+.colonne {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 100px; 
+}
+
